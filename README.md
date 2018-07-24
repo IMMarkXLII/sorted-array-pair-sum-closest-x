@@ -2,7 +2,7 @@
 Given a sorted array and a number x, find the pair in array whose sum is closest to x
 
 
-`
+```
     private static void printClosest(int[] arr, int n, int x) {
 		int left = -1, right = -1;
 		int diff = Integer.MAX_VALUE;
@@ -20,4 +20,4 @@ Given a sorted array and a number x, find the pair in array whose sum is closest
 		System.out.println(arr[left]);
 		System.out.println(arr[right]);
 	}
-`
+```
